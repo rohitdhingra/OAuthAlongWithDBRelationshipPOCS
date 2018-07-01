@@ -15,7 +15,8 @@ import com.rohit.poc.model.BookCategory;
 import com.rohit.poc.repository.BookCategoryRepository;
 
 @SpringBootApplication
-public class OnetoManyRelationshipProjectInSpringJpa1Application implements CommandLineRunner{
+public class OnetoManyRelationshipProjectInSpringJpa1Application implements CommandLineRunner
+{
 
 	private static final Logger logger = LoggerFactory.getLogger(OnetoManyRelationshipProjectInSpringJpa1Application.class);
 	@Autowired
